@@ -1,0 +1,110 @@
+h4 {
+	font-size: 35px;
+	text-align: center;
+	padding: 15px;
+	font-family: 'Shrikhand', cursive;
+	color: #EEC82D;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+li {
+	display: inline;
+	margin: 15px;
+}
+
+ul {
+	text-align: center;
+	padding: 5px;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	color: #EEC82D;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #EEC82D;
+}
+
+.vundimg2 {
+	width: 100%;
+	height: 40%;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+h1 {
+	font-size: 50px;
+	color: #0900FC;
+	text-align: center;
+	font-family:'Shrikhand', cursive;
+	margin-top: 15px;
+}
+
+.byline {
+	font-size: 30px;
+	color: #EEC82D;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.date {
+	font-size: 15px;
+	color: #EEC82D;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 75px;
+}
+
+p {
+	font-size: 20px;
+	color: #4978FA;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	margin: 20px;
+	margin-left-right: 35px;
+}
+
+.firstblock {
+	font-size: 40px;
+}
+
+blockquote {
+	font-size: 40px;
+	color: #4978FA;
+	font-family: 'Raleway', sans-serif;
+	margin: 20px;
+}
+
+.vundimg3 {
+	float: left;
+	margin: 25px;
+}
+
+.vundimg4 {
+	float: right;
+	margin: 25px;
+	width: 50%;
+	height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

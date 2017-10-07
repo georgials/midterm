@@ -1,0 +1,127 @@
+h4 {
+	font-size: 35px;
+	text-align: center;
+	padding: 15px;
+	font-family: 'Shrikhand', cursive;
+	color: #EEC82D;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+li {
+	display: inline;
+	margin: 15px;
+}
+
+ul {
+	text-align: center;
+	padding: 5px;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	color: #EEC82D;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #EEC82D;
+}
+
+h1 {
+	font-size: 50px;
+	color: #0900FC;
+	text-align: left;
+	margin-top: 75px;
+	margin-left: 75px;
+	font-family:'Shrikhand', cursive;
+}
+
+.Vundabar {
+	font-size: 20px;
+	color: #EEC82D;
+	font-family:'Raleway', sans-serif;
+	text-align: center;
+	padding-top: 200px;
+	padding-right: 600px;
+}
+
+.Vundabar a:visited {
+	color: #EEC82D;
+}
+
+.Vundabar a:hover {
+	color: #4978FA;
+	transition: all 1s;
+}
+
+.vundimg {
+	width: 35%;
+	height: 35%;
+	float: left;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	margin-left: 75px;
+}
+
+.Charly {
+	font-size: 20px;
+	color: #EEC82D;
+	font-family:'Raleway', sans-serif;
+	text-align: center;
+}
+
+.Charly a:visited {
+	color: #EEC82D;
+}
+
+.Charly a:hover {
+	color: #4978FA;
+	transition: all 1s;
+}
+
+.charlyimg {
+	width: 35%;
+	height: 35%;
+	float: right;
+	margin-top: 50px;
+	margin-right: 75px;
+	margin-bottom: 25px;
+	margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

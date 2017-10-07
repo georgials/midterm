@@ -1,0 +1,61 @@
+
+body {
+	background: url("background.png ");
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	padding: 20px;
+	margin-top: 250px;
+	font-family: 'Shrikhand', cursive;
+	color: #EEC82D;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+li {
+	display: inline;
+	margin: 50px;
+}
+
+ul {
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: #EEC82D;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #EEC82D ;
+}
+
+.nav a:hover {
+	color: #4978FA;
+	transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
