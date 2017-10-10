@@ -44,7 +44,6 @@ h1 {
 	color: #EEC82D;
 	font-family:'Raleway', sans-serif;
 	text-align: center;
-	padding-top: 200px;
 	padding-right: 600px;
 }
 
@@ -62,9 +61,9 @@ h1 {
 	height: 35%;
 	float: left;
 	margin-top: 50px;
-	margin-right: 50px;
-	margin-bottom: 25px;
 	margin-left: 75px;
+	margin-right: 30px;
+	border: 3px solid #4978FA;
 }
 
 .Charly {
@@ -72,6 +71,7 @@ h1 {
 	color: #EEC82D;
 	font-family:'Raleway', sans-serif;
 	text-align: center;
+	padding-left: 600px;
 }
 
 .Charly a:visited {
@@ -89,14 +89,84 @@ h1 {
 	float: right;
 	margin-top: 50px;
 	margin-right: 75px;
-	margin-bottom: 25px;
-	margin-left: 50px;
+	margin-left: 30px;
+	border: 3px solid #4978FA;
 }
 
+.hopimg {
+	width: 35%;
+	height: 35%;
+	float: left;
+	margin-top: 50px;
+	margin-left: 75px;
+	margin-right: 30px;
+	border: 3px solid #4978FA;
+}
 
+.pinegroveimg {
+	width: 35%;
+	height: 35%;
+	float: right;
+	margin-top: 50px;
+	margin-right: 75px;
+	margin-left: 30px;
+	border: 3px solid #4978FA;
+}
 
+.Hop {
+	font-size: 20px;
+	color: #EEC82D;
+	font-family:'Raleway', sans-serif;
+	text-align: center;
+	padding-right: 600px;
+}
 
+.Hop:hover {
+	color: #4978FA;
+	transition: all 1s;
+}
 
+.Pinegrove {
+	font-size: 20px;
+	color: #EEC82D;
+	font-family:'Raleway', sans-serif;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 600px;
+}
+
+.Pinegrove:hover {
+	color: #4978FA;
+	transition: all 1s;
+}
+
+.porches {
+	width: 27%;
+	height: 27%;
+	margin: 12px;
+	margin-left: 75px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 3px solid #4978FA;
+}
+
+.bbc {
+	width: 27%;
+	height: 27%;
+	margin: 12px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 3px solid #4978FA;
+}
+
+.jank {
+	width: 27%;
+	height: 27%;
+	margin: 12px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 3px solid #4978FA;
+}
 
 
 
