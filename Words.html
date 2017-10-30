@@ -1,42 +1,180 @@
 <!DOCTYPE html>
 <head>
 	<title> Words </title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href= "reset.css" type= "text/css" rel= "stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:600|Shrikhand" rel="stylesheet">
 	<link href= "WSStyle.css" type= "text/css" rel= "stylesheet">
 
 </head>
 <body>
 
-	<h4> <a href= "index.html"> Baby Grand </a> </h4>
-<ul>
-	<li> <a href= "Words.html"> Words </a> </li>
-	<li> <a href= "Sound.html"> Sound </a> </li>
-	<li> <a href= "Shows.html"> Shows </a> </li>
-</ul>
+<nav class= "white">
+    <div class="nav-wrapper">
+      <a href="index.html" class="homepage">Baby Grand</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="Words.html">Words</a></li>
+        <li><a href="Sound.html">Sound</a></li>
+        <li><a href="Shows.html">Shows</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="Words.html">Words</a></li>
+        <li><a href="Sound.html">Sound</a></li>
+        <li><a href="Shows.html">Shows</a></li>
+      </ul>
+    </div>
+  </nav>
+          
+
+
 
 	<h1> Featured Artists </h1>
 
-	<a href= "Vundabar.html"> <img class= "vundimg" src= "vundabar.jpg"> </a> <a href= "Charly.html"> <img class= "charlyimg" src= "charlyimg.jpg"> </a> 
-	<div class= "Vundabar"> <p> <a href= "Vundabar.html"> Vundabar </p> <p> Boston, Massachusetts </a> </p> </div> <div class= "Charly"> <p> <a href= "Charly.html"> Charly Bliss </p> <p> New York, New York </a> </p> </div>
+<div class= "container">
 
-	<img class= "hopimg" src= "hopalong.jpg"> <img class= "pinegroveimg" src= "pinegrove.jpg"> <div class= "Pinegrove"> <p> Pinegrove </p> <p> Montclair, New Jersey </p> </div> <div class= "Hop"> <p> Hop Along </p> <p> Philadelphia, Pennsylvania </p> </div> 
+	<!--Start first row -->
+	<div class= "row">
+		<div class= "col s12 m4">
+			<a href= "Vundabar.html"> <img class= "vundimg" src= "vundabar.jpg"></a> 
+			<div class= "Vundabar"> <p> <a href= "Vundabar.html"> Vundabar </p> <p> Boston, Massachusetts </a> </p> </div>
+		</div>
+		<div class= "col s12 m4 offset-m3">	
+			<a href= "Charly.html"> <img class= "charlyimg" src= "charlyimg.jpg"> </a>
+			<div class= "Charly"> <p> <a href= "Charly.html"> Charly Bliss </p> <p> New York, New York </a> </p> </div>
+		</div>
+	</div>
+	<!-- End first row -->
+
+	<!-- Start second row -->
+	<div class= "row">
+		<div class= "col s12 m4">
+			<img class= "hopimg" src= "hopalong.jpg">
+			<div class= "Hop"> <p> Hop Along </p> <p> Philadelphia, Pennsylvania </p> </div> 
+		</div>
+		<div class= "col s12 m4 offset-m3">
+			<img class= "pinegroveimg" src= "pinegrove.jpg"> 
+			<div class= "Pinegrove"> <p> Pinegrove </p> <p> Montclair, New Jersey </p></div>
+		</div>
+	</div>
+</div> <!-- End Container -->
+	 
 	
 	<h1> Album Reviews </h1>
 
-	<div class= "albums"> <img class= "porches" src= "porchesalbum.jpg"> <img class= "bbc" src= "bbcalbum.jpg"> <img class= "jank" src= "jankalbum.jpg"> </div>
+<div class= "container">
+	<!-- Start Albums -->
+
+<div class="row">
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img class= "bbc" src= "bbcalbum.jpg">
+          </div>
+          <div class="card-content">
+            <p class= "truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Read Full Review</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img class= "porches" src= "porchesalbum.jpg"> 
+          </div>
+          <div class="card-content">
+            <p class= "truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Read Full Review</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img class= "jank" src= "jankalbum.jpg">
+          </div>
+          <div class="card-content">
+            <p class= "truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Read Full Review</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 </body> 
-
-
-
-
-
-
 
 
 
