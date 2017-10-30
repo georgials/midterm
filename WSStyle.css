@@ -7,15 +7,24 @@ h4 {
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
 }
 
+.homepage {
+	margin: 75px;
+	font-size: 50px;
+	font-family: 'Shrikhand', cursive;
+	color: #EEC82D;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
 li {
 	display: inline;
 	margin: 15px;
+	font-size: 60px;
 }
 
 ul {
 	text-align: center;
 	padding: 5px;
-	font-size: 15px;
+	font-size: 60px;
 	font-family: 'Raleway', sans-serif;
 	color: #EEC82D;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
@@ -44,7 +53,7 @@ h1 {
 	color: #EEC82D;
 	font-family:'Raleway', sans-serif;
 	text-align: center;
-	padding-right: 600px;
+	padding-left: 40px;
 }
 
 .Vundabar a:visited {
@@ -57,12 +66,8 @@ h1 {
 }
 
 .vundimg {
-	width: 35%;
-	height: 35%;
-	float: left;
-	margin-top: 50px;
-	margin-left: 75px;
-	margin-right: 30px;
+	width: 350px;
+	height: 350px;
 	border: 3px solid #4978FA;
 }
 
@@ -71,7 +76,7 @@ h1 {
 	color: #EEC82D;
 	font-family:'Raleway', sans-serif;
 	text-align: center;
-	padding-left: 600px;
+	padding-left: 50px;
 }
 
 .Charly a:visited {
@@ -84,32 +89,20 @@ h1 {
 }
 
 .charlyimg {
-	width: 35%;
-	height: 35%;
-	float: right;
-	margin-top: 50px;
-	margin-right: 75px;
-	margin-left: 30px;
+	width: 350px;
+	height: 350px;
 	border: 3px solid #4978FA;
 }
 
 .hopimg {
-	width: 35%;
-	height: 35%;
-	float: left;
-	margin-top: 50px;
-	margin-left: 75px;
-	margin-right: 30px;
+	width: 350px;
+	height: 350px;
 	border: 3px solid #4978FA;
 }
 
 .pinegroveimg {
-	width: 35%;
-	height: 35%;
-	float: right;
-	margin-top: 50px;
-	margin-right: 75px;
-	margin-left: 30px;
+	width: 350px;
+	height: 350px;
 	border: 3px solid #4978FA;
 }
 
@@ -118,7 +111,6 @@ h1 {
 	color: #EEC82D;
 	font-family:'Raleway', sans-serif;
 	text-align: center;
-	padding-right: 600px;
 }
 
 .Hop:hover {
@@ -131,8 +123,6 @@ h1 {
 	color: #EEC82D;
 	font-family:'Raleway', sans-serif;
 	text-align: center;
-	padding-top: 25px;
-	padding-left: 600px;
 }
 
 .Pinegrove:hover {
@@ -141,35 +131,31 @@ h1 {
 }
 
 .porches {
-	width: 27%;
-	height: 27%;
-	margin: 12px;
-	margin-left: 75px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	width: 300px;
+	height: 300px;
 	border: 3px solid #4978FA;
 }
 
 .bbc {
-	width: 27%;
-	height: 27%;
-	margin: 12px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	width: 300px;
+	height: 300px;
 	border: 3px solid #4978FA;
 }
 
 .jank {
-	width: 27%;
-	height: 27%;
-	margin: 12px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	width: 300px;
+	height: 300px;
 	border: 3px solid #4978FA;
 }
 
 
+@media screen and (max-width: 400px) {
+	body h1 {
+		font-size: 200%;
+		text-align: left;
+	}
 
+}
 
 
 
