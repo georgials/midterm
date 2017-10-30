@@ -29,6 +29,7 @@ ul {
 
 a {
 	text-decoration: none;
+	color: #EEC82D;
 }
 
 a:visited {
@@ -38,6 +39,25 @@ a:visited {
 .nav a:hover {
 	color: #4978FA;
 	transition: all 1s;
+}
+
+@media screen and (max-width: 400px) {
+	body h1 {
+		font-size: 300%;
+		
+	}
+
+	li {
+		display: block;
+		margin: 18px;
+	}
+
+	ul {
+		text-align: ;
+		font-size: 200%;
+		padding: 0px;
+	}
+
 }
 
 
