@@ -7,6 +7,14 @@ h4 {
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
 }
 
+.homepage {
+	margin: 75px;
+	font-size: 50px;
+	font-family: 'Shrikhand', cursive;
+	color: #EEC82D;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
 li {
 	display: inline;
 	margin: 15px;
@@ -64,7 +72,7 @@ p {
 	font-size: 20px;
 	color: #4978FA;
 	font-family: 'Raleway', sans-serif;
-	text-align: left;
+	text-align: justify;
 	margin: 20px;
 	margin-left-right: 35px;
 }
@@ -108,7 +116,58 @@ blockquote {
 }
 
 
+@media screen and (max-width: 400px) {
+	body h4 {
+		font-size: 150%;
+	}
 
+	h1 {
+		font-size: 200%;
+	}
+	.date {
+		margin-top: 20px;
+		font-size: 90%;
+	}
+	.vundimg2 {
+	width: 101%;
+	height: 40%;
+	}
+	.byline {
+		font-size: 100%;
+	}
+	.firstblock { 
+		font-size: 30px;
+	 }
+	 p {
+	 	text-align: left;
+	 	font-size: 20px;
+	 }
+	 blockquote {
+	 	font-size: 30px;
+	 }
+	 .vundimg3 {
+	 	float: none;
+	 	margin: 20px;
+	 	height: 100%;
+	 	width: 90%;
+	 }
+	 .vundimg4 {
+	 	float: none;
+	 	margin: 20px;
+	 	height: 80%;
+	 	width: 90%;
+	 }
+	.charlyimg3 {
+		width: 90%;
+		height: 40%;
+		padding-left: 0px;
+		padding-bottom: 20px;
+		margin: 20px;
+		
+		
+}
+
+}
 
 
 
